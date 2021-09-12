@@ -1,0 +1,57 @@
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0px 0px 0px 0px;
+    background-color: #111111;
+    color: #ffffff;
+}
+
+.topnav{
+    background: linear-gradient(to right, #9A30FC, #250C3D);;
+    overflow: hidden;
+}
+.topnav a{
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav img{
+    float: left
+}
+.topnav a:hover {
+    transition: 0.5s;
+    background-color: #ffffff;
+    color: #000000;
+  }
+
+.topnav a.active{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.errormessage{
+    text-align: center;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(to right, #9A30FC, #250C3D);;
+    color: #ffffff;
+    text-align: center;
+}
+
+.jackbb{
+    overflow:hidden;
+    color: #ffffff;
+}
+
+.jackbb:hover{
+    transition: 0.5s;
+    color: #000000;
+    
+}
